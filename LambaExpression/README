@@ -1,0 +1,20 @@
+Lambda Expression
+
+Advantages 
+ 
+ 1) Enables Functional Programming
+ 2) Readable and concise code
+ 3) Easier to use APIs and  Libraries
+ 4) Enables Support for Parallel processing
+ 
+ 
+ stringFunction = ()-> System.out.println("Hello world");
+ intFunction =(int a,int b)-> a+b;
+ StringLengthFunction = (String message) ->{
+ return message.length();
+ };
+ 
+ 
+ Functional Interface 
+ An Interface that contains exactly one abstract method is known as a functional interface.
+It can have any number of default, static methods but can contain only one abstract method. It can also declare methods of the object class.
